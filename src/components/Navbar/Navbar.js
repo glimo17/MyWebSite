@@ -3,7 +3,7 @@ import { useAppContext } from '../../app/AppContext';
 import styles from './Navbar.module.css';
 
 function Navbar() {
-  const { portfolio, searchQuery, setSearchQuery } = useAppContext();
+  const { searchQuery, setSearchQuery } = useAppContext();
 
   return (
     <header className={styles.header}>
@@ -24,21 +24,6 @@ function Navbar() {
             />
           </label>
         </div>
-
-        <nav className={styles.nav} aria-label="Primary navigation">
-          {portfolio.navigation.map((item) => (
-            <NavLink
-              key={`${item.label}-${item.path}`}
-              to={item.path}
-              className={({ isActive }) =>
-                `${styles.navItem} ${isActive ? styles.navItemActive : ''}`.trim()
-              }
-            >
-              <span className={styles.navIcon} aria-hidden="true" />
-              <span>{item.label}</span>
-            </NavLink>
-          ))}
-        </nav>
       </div>
     </header>
   );

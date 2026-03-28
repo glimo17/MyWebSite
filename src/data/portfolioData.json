@@ -1,8 +1,8 @@
 {
   "profile": {
-    "name": "Your Name Here",
-    "headline": "Portfolio headline placeholder",
-    "location": "Location placeholder",
+    "name": "Jean Carlos Murillo Vasquez",
+    "headline": "",
+    "location": "",
     "about": "Short bio placeholder. Replace this with a concise introduction when real content is ready.",
     "stats": {
       "profileViews": "000",
@@ -15,13 +15,6 @@
       "Editable content structure"
     ]
   },
-  "navigation": [
-    { "label": "Home", "path": "/" },
-    { "label": "My Network", "path": "/" },
-    { "label": "Projects", "path": "/profile" },
-    { "label": "Notifications", "path": "/" },
-    { "label": "Me", "path": "/profile" }
-  ],
   "feedItems": [
     {
       "id": "post-1",

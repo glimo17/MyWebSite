@@ -14,7 +14,7 @@
 .leftColumn,
 .rightColumn {
   position: sticky;
-  top: 96px;
+  top: 24px;
 }
 
 @media (max-width: 1080px) {

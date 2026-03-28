@@ -1,0 +1,48 @@
+.panel {
+  padding: 18px;
+}
+
+.header h3,
+.header p {
+  margin: 0;
+}
+
+.header p {
+  margin-top: 8px;
+  color: var(--muted-text);
+  line-height: 1.5;
+}
+
+.nav {
+  margin-top: 16px;
+  display: grid;
+  gap: 10px;
+}
+
+.navItem {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+  background: #ffffff;
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.navItem:hover {
+  border-color: #0a66c2;
+  background: #f4f9ff;
+  transform: translateY(-1px);
+}
+
+.navTitle {
+  color: var(--primary-text);
+  font-weight: 700;
+}
+
+.navDescription {
+  color: var(--muted-text);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}

@@ -22,22 +22,23 @@ function FeedComposer() {
 }
 
 function Feed() {
-  const { filteredFeedItems } = useAppContext();
+  const { portfolio } = useAppContext();
+  const feedItems = portfolio.feedItems || [];
 
   return (
     <div className={styles.feed}>
       <FeedComposer />
 
-      {filteredFeedItems.length === 0 ? (
+      {feedItems.length === 0 ? (
         <Panel>
           <div className={styles.emptyState}>
-            <h3>No placeholder posts match the current search.</h3>
-            <p>Try a different query or remove the filter to view all editable feed cards.</p>
+            <h3>No placeholder posts yet.</h3>
+            <p>Add feed items to the data file to populate this editable feed area.</p>
             <SkeletonCard />
           </div>
         </Panel>
       ) : (
-        filteredFeedItems.map((item) => (
+        feedItems.map((item) => (
           <Panel key={item.id} className={styles.postCard}>
             <div className={styles.postHeader}>
               <div className={styles.postAvatar} aria-hidden="true" />
