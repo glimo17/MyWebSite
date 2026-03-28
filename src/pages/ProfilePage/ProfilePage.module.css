@@ -39,9 +39,6 @@
 .heroText p,
 .heroText span,
 .aboutPanel p,
-.timelineItem h3,
-.timelineItem span,
-.timelineItem p,
 .cardItem h3,
 .cardItem p,
 .cardItem span {
@@ -51,8 +48,6 @@
 .heroText p,
 .heroText span,
 .aboutPanel p,
-.timelineItem span,
-.timelineItem p,
 .cardItem p,
 .cardItem span {
   color: var(--muted-text);
@@ -77,7 +72,6 @@
 
 .heroText p,
 .aboutPanel p,
-.timelineItem p,
 .cardItem p {
   line-height: 1.65;
 }
@@ -90,8 +84,6 @@
 .sectionHeader {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
   margin-bottom: 18px;
 }
 
@@ -100,54 +92,17 @@
   font-size: 1.2rem;
 }
 
-.sectionHeader button {
-  min-height: 38px;
-  padding: 0 14px;
-  border: 1px solid var(--border-color);
-  border-radius: 999px;
-  background: #ffffff;
-  color: var(--secondary-text);
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 .sectionContent {
   display: grid;
   gap: 16px;
 }
 
-.bulletList {
-  margin: 12px 0 0;
-  padding-left: 18px;
-  color: var(--secondary-text);
-  line-height: 1.6;
-}
-
-.bulletList li + li {
-  margin-top: 6px;
-}
-
-.timelineItem,
 .cardItem {
   display: grid;
   gap: 12px;
   padding: 18px;
   border-radius: 16px;
   background: var(--surface-muted);
-}
-
-.timelineItem {
-  grid-template-columns: auto 1fr;
-}
-
-.timelineMarker {
-  width: 12px;
-  height: 12px;
-  margin-top: 6px;
-  border-radius: 999px;
-  background: #0a66c2;
-  box-shadow: 0 0 0 7px rgba(10, 102, 194, 0.12);
 }
 
 .cardItem {
@@ -229,7 +184,6 @@
   }
 
   .sectionHeader {
-    flex-direction: column;
     align-items: flex-start;
   }
 

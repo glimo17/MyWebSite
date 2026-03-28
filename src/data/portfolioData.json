@@ -83,13 +83,18 @@
       "role": "Full Stack Engineer",
       "company": "Freelance",
       "period": "Apr 2025 - Present",
-      "summary": "Designing and delivering backend services, AI-enabled solutions, financial integrations, and production-ready full-stack systems for client needs.",
+      "summary": "Able to build RESTful APIs and backend services using .NET (C#) for financial and transactional integrations. Implemented AI-driven features using Large Language Models such as Claude and GPT-4. Built Retrieval-Augmented Generation (RAG) solutions by integrating external data sources to enhance AI responses.",
       "highlights": [
-        "Build RESTful APIs and backend services using .NET (C#) for financial and transactional integrations.",
-        "Implement AI-driven features using Large Language Models such as Claude and GPT-4.",
-        "Build Retrieval-Augmented Generation solutions integrating SharePoint and database sources.",
-        "Design BCCR integrations, distributed POS data synchronization, and relational database optimization.",
-        "Set up CI/CD and manage deployments across Vercel and Google Cloud Platform environments."
+        "Able to build RESTful APIs and backend services using .NET (C#) for financial and transactional integrations.",
+        "Implemented AI-driven features using Large Language Models such as Claude and GPT-4.",
+        "Built Retrieval-Augmented Generation (RAG) solutions by integrating external data sources (e.g., SharePoint, databases) to enhance AI responses.",
+        "Leveraged tools like GitHub Copilot to improve development speed and code quality.",
+        "Able to design and develop API integrations for BCCR, enabling secure communication and financial data exchange.",
+        "Able to implement database connectivity and data synchronization between distributed POS terminals using SQL Server and MySQL.",
+        "Capable of designing and optimizing relational databases, stored procedures, and queries for high-volume transactional environments.",
+        "Able to set up CI/CD pipelines and manage cloud deployments using Vercel and Google Cloud Platform (GCP).",
+        "Capable of managing production environments, domain configuration, maintenance, and bug fixes.",
+        "Able to apply Agile methodologies and continuous testing practices to ensure code quality and reliability."
       ]
     },
     {
@@ -97,13 +102,17 @@
       "role": "Power Platform Consultant",
       "company": "BHFE Solutions",
       "period": "Apr 2023 - Dec 2025",
-      "summary": "Focused on DevOps, Azure integrations, Power Platform extensibility, and infrastructure automation for enterprise solutions.",
+      "summary": "Able to design, implement and maintain CI/CD pipelines using GitHub Actions and Azure DevOps. Able to develop Azure Functions and build custom SDK integrations for Power Platform using .NET (C#).",
       "highlights": [
-        "Designed, implemented, and maintained CI/CD pipelines using GitHub Actions and Azure DevOps.",
-        "Developed Azure Functions and custom SDK integrations for Power Platform using .NET (C#).",
-        "Built RESTful APIs and backend services for financial and transactional integrations.",
-        "Automated Azure provisioning with Terraform and improved security, performance, and operational stability.",
-        "Implemented monitoring, logging, and alerting with Azure Monitor, Prometheus, Grafana, and ELK Stack."
+        "Able to design, implement and maintain CI/CD pipelines using GitHub Actions and Azure DevOps.",
+        "Able to develop Azure Functions and build custom SDK integrations for Power Platform using .NET (C#).",
+        "Able to build RESTful APIs and backend services using .NET (C#) for financial and transactional integrations.",
+        "Capable of automating cloud infrastructure provisioning in Azure using Terraform (Infrastructure as Code).",
+        "Capable of applying DevOps best practices to improve system security, performance and operational stability.",
+        "Able to implement monitoring, logging and alerting solutions using Azure Monitor, Prometheus, Grafana and ELK Stack.",
+        "Capable of performing troubleshooting and root cause analysis across development, test and production environments.",
+        "Able to continuously improve deployment processes to increase efficiency, quality and release velocity.",
+        "Capable of working with containerized applications and microservices architectures using Docker and Kubernetes."
       ]
     },
     {
@@ -111,13 +120,22 @@
       "role": "Full Stack Engineer",
       "company": "Grupo Syntepro CR",
       "period": "Dec 2020 - Apr 2023",
-      "summary": "Built full-stack business applications and enterprise integrations across .NET, Java, Angular, ReactJS, and SQL technologies.",
+      "summary": "Designed full-stack web applications with .NET, Java, and ReactJS. Led CI/CD integration through Azure DevOps and delivered enterprise integrations with SQL and web services.",
       "highlights": [
         "Designed full-stack web applications with .NET, Java, and ReactJS.",
         "Led CI/CD integration through Azure DevOps.",
-        "Worked with Angular 5, .NET Core, Entity Framework Core, and Web API controllers.",
-        "Created database objects including stored procedures, functions, views, and triggers.",
-        "Developed WCF services, asynchronous web services, unit tests, and technical requirements documents."
+        "Able to programming in Angular 5 .net core.",
+        "Entity Framework 2.0 core.",
+        "Capable to create Web API controllers.",
+        "Capable of write JavaScript code.",
+        "Capable of using Git.",
+        "Able to create and run unit tests.",
+        "Able to create database objects like Stored Procedures, Functions, Views, Trigger.",
+        "Capable of addressing and fixing C# code Issues.",
+        "Able to create or Invoke Web Services (WCF).",
+        "SQL developer.",
+        "Capable of creating asynchronous web services.",
+        "Able to write requirements documents. Technical skills: C#, SQL, Javascript.Net core, Net Framework, Bootstrap."
       ]
     },
     {
@@ -125,13 +143,16 @@
       "role": "Lead Software Engineer",
       "company": "Walmart Tech CR",
       "period": "Dec 2016 - Dec 2020",
-      "summary": "Led data engineering and enterprise software initiatives spanning data lakes, analytics platforms, automation, and architecture design.",
+      "summary": "Capable of leading technical design and implementation of enterprise Data Lake solutions, big data pipelines, and data-driven web applications across cloud-enabled environments.",
       "highlights": [
-        "Led the technical design and implementation of enterprise Data Lake solutions using SQL Server, Cosmos DB, MongoDB, SSIS, and Apache Spark.",
-        "Designed and maintained big data pipelines and data processing workflows for ingestion, transformation, and analytics.",
-        "Developed data-driven applications and data models using .NET, ReactJS, and Erwin.",
-        "Built RPA automation using UiPath and integrated CI/CD pipelines using Azure DevOps and Jenkins.",
-        "Defined architecture, technical designs, and implementation strategies while guiding cross-functional delivery teams."
+        "Capable of leading the technical design and implementation of enterprise Data Lake solutions using SQL Server, Cosmos DB, MongoDB, SSIS, and Apache Spark.",
+        "Able to design and maintain big data pipelines and data processing workflows for large-scale data ingestion, transformation, and analytics.",
+        "Capable of developing data-driven web applications and data models using .NET, ReactJS, and Erwin.",
+        "Able to build RPA automation solutions using UiPath and integrate CI/CD pipelines using Azure DevOps and Jenkins.",
+        "Capable of defining system architecture, technical designs, and implementation strategies based on business and technical requirements.",
+        "Able to guide development teams and collaborate with Project Managers, Business Analysts, and stakeholders throughout the project lifecycle.",
+        "Capable of implementing coding standards, architectural best practices, and ensuring high-quality code across the project.",
+        "Able to perform system analysis, integration testing, and end-to-end validation for enterprise data platforms."
       ]
     },
     {
@@ -139,12 +160,16 @@
       "role": "Software Engineer",
       "company": "Novacomp",
       "period": "Feb 2016 - Nov 2016",
-      "summary": "Worked on Web API development, JavaScript coding, SQL programming, and asynchronous application delivery in ASP.NET MVC environments.",
+      "summary": "Focused on Web API development, JavaScript coding, and SQL programming. Built and tested web services and asynchronous applications in ASP.NET MVC environments.",
       "highlights": [
         "Focused on Web API development, JavaScript coding, and SQL programming.",
         "Built and tested web services and asynchronous applications.",
-        "Developed software on ASP.NET MVC and jQuery-based interfaces.",
-        "Used Team Foundation Server and created database objects such as stored procedures, functions, views, and triggers."
+        "Software web developer on ASP .NET MVC.",
+        "Capable of writing jQuery code.",
+        "Capable of using Team Foundation Server.",
+        "Able to create database objects like Stored Procedures, Functions, Views, Trigger.",
+        "Capable of addressing and fixing C# code Issues.",
+        "Able to create or Invoke Web Services (WCF)."
       ]
     },
     {
@@ -152,12 +177,19 @@
       "role": "Software Engineer",
       "company": "Lidersoft International S.A.",
       "period": "Aug 2013 - Feb 2016",
-      "summary": "Delivered full-stack .NET applications, SQL components, asynchronous services, and technical documentation in Microsoft-centric environments.",
+      "summary": "Created full-stack .NET applications and database components, including ASP.NET MVC solutions, asynchronous services, SQL development, and technical documentation.",
       "highlights": [
         "Created full-stack .NET applications and database components.",
-        "Developed software on ASP.NET MVC and wrote jQuery code.",
-        "Built database objects, WCF services, and asynchronous web services.",
-        "Worked with Team Foundation Server and technical requirements documentation."
+        "Software web developer on ASP .NET MVC.",
+        "Capable of writing jQuery code.",
+        "Capable of using Team Foundation Server.",
+        "Able to create database objects like Stored Procedures, Functions, Views, Trigger.",
+        "Capable of addressing and fixing C# code Issues.",
+        "Able to create or Invoke Web Services (WCF).",
+        "SQL developer.",
+        "Capable of creating asynchronous web services.",
+        "Able to write requirements document.",
+        "TeamFoundation Server."
       ]
     },
     {
@@ -165,12 +197,17 @@
       "role": "Software Engineer",
       "company": "Avantica",
       "period": "Jul 2012 - Aug 2013",
-      "summary": "Worked on regulatory data solutions, SQL Server reporting services, bug analysis, and backend service development.",
+      "summary": "Developer of data classes according to SUGEF requirements, with SQL Server stack delivery, web service integration, and defect analysis support.",
       "highlights": [
-        "Developed data classes according to SUGEF requirements.",
-        "Worked with TortoiseSVN, bug analysis, and jQuery development.",
-        "Built stored procedures, functions, views, triggers, and WCF services.",
-        "Used SQL Server SSAS, SSIS, and SSRS while preparing technical requirements."
+        "Developer of the data class according to SUGEF.",
+        "Capable of using subversion with Tortoise Client.",
+        "Capable of understanding bugs Developer of the data class according to SUGE.",
+        "Capable of write jQuery code.",
+        "Able to create database objects like Stored Procedures, Functions, Views, Trigger.",
+        "Capable of addressing and fixing C# code Issues.",
+        "Able to create or Invoke Web Services (WCF).",
+        "SQL developer. Able to write requirements document.",
+        "SQL server (SSAS, SSIS, SSRS)."
       ]
     }
   ],

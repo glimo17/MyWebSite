@@ -1,0 +1,60 @@
+.sidebarPanel {
+  padding: 18px;
+  background: #f8fafc;
+  border-color: #d8e1eb;
+}
+
+.brandBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.brandBlock h2 {
+  margin: 0;
+  font-size: 1.04rem;
+  color: var(--secondary-text);
+}
+
+.brandDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #0a66c2;
+}
+
+.nav {
+  display: grid;
+  gap: 8px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  border-radius: 10px;
+  color: #5f6b77;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.navItem:hover {
+  background: #edf3f8;
+  color: var(--primary-text);
+}
+
+.navItemActive {
+  background: #e8f1fb;
+  color: #0a66c2;
+}
+
+.navIcon {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  border: 1.6px solid currentColor;
+}

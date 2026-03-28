@@ -1,0 +1,95 @@
+.sectionPanel {
+  padding: 22px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.sectionContent {
+  display: grid;
+  gap: 14px;
+}
+
+.itemCard {
+  padding: 18px;
+  border: 1px solid #d8e1eb;
+  border-radius: 16px;
+  background: #ffffff;
+  transition: box-shadow 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.itemCardExpanded {
+  border-color: #cfd8e3;
+  background: var(--surface-muted);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.itemTitle {
+  margin: 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.descriptionRow {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.description {
+  flex: 1;
+  margin: 0;
+  color: var(--muted-text);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 160ms ease;
+}
+
+.descriptionExpanded {
+  display: block;
+  overflow: visible;
+}
+
+.toggleLink {
+  flex-shrink: 0;
+  margin-top: 10px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #6a737d;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.toggleLink:hover {
+  color: #4f5963;
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .descriptionRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggleLink {
+    margin-top: 2px;
+  }
+}

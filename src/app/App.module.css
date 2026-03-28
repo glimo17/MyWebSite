@@ -1,15 +1,33 @@
 .appShell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 24px auto 40px;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 20px;
   min-height: 100vh;
 }
 
-.pageArea {
-  width: min(1120px, calc(100% - 32px));
-  margin: 24px auto 40px;
+.sidebarArea {
+  min-width: 0;
 }
 
-@media (max-width: 768px) {
-  .pageArea {
+.sidebarSticky {
+  position: sticky;
+  top: 24px;
+}
+
+.pageArea {
+  min-width: 0;
+}
+
+@media (max-width: 860px) {
+  .appShell {
     width: min(100%, calc(100% - 20px));
+    grid-template-columns: 1fr;
     margin-top: 18px;
+  }
+
+  .sidebarSticky {
+    position: static;
   }
 }

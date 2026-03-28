@@ -1,0 +1,71 @@
+.page {
+  display: grid;
+  gap: 18px;
+}
+
+.sectionPanel {
+  padding: 22px;
+}
+
+.sectionHeader h1,
+.sectionHeader p {
+  margin: 0;
+}
+
+.sectionHeader h1 {
+  font-size: 1.3rem;
+}
+
+.sectionHeader p {
+  margin-top: 8px;
+  color: var(--muted-text);
+}
+
+.projectGrid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.projectCard {
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #d8e1eb;
+  background: var(--surface-muted);
+}
+
+.projectCard h2,
+.projectCard p,
+.projectCard span {
+  margin: 0;
+}
+
+.projectCard h2 {
+  font-size: 1rem;
+}
+
+.projectCard p {
+  margin-top: 10px;
+  color: var(--muted-text);
+  line-height: 1.6;
+}
+
+.projectCard span {
+  margin-top: 12px;
+  display: inline-flex;
+  min-height: 28px;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0a66c2;
+  font-weight: 600;
+  font-size: 0.84rem;
+}
+
+@media (max-width: 780px) {
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+}
