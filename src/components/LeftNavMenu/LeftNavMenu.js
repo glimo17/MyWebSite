@@ -9,7 +9,7 @@ const menuItems = [
     to: '/profile#profile',
   },
   {
-    label: 'Portfolio',
+    label: 'Portafolio',
     description: 'Featured work, engineering focus, and code samples',
     to: '/profile#portfolio',
   },

@@ -5,7 +5,7 @@ import styles from './ProfileSummary.module.css';
 
 function ProfileSummary() {
   const { portfolio } = useAppContext();
-  const { profile } = portfolio;
+  const { contact, profile } = portfolio;
 
   return (
     <Panel className={styles.panel}>
@@ -26,19 +26,20 @@ function ProfileSummary() {
           <span>{profile.location}</span>
         </div>
 
+        <div className={styles.contactPreview}>
+          <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          <a href={contact.github} target="_blank" rel="noreferrer">
+            View code samples
+          </a>
+        </div>
+
         <div className={styles.stats}>
-          <div>
-            <span>Profile views</span>
-            <strong>{profile.stats.profileViews}</strong>
-          </div>
-          <div>
-            <span>Post impressions</span>
-            <strong>{profile.stats.postImpressions}</strong>
-          </div>
-          <div>
-            <span>Connections</span>
-            <strong>{profile.stats.connections}</strong>
-          </div>
+          {profile.stats.map((item) => (
+            <div key={item.label}>
+              <span>{item.label}</span>
+              <strong>{item.value}</strong>
+            </div>
+          ))}
         </div>
 
         <div className={styles.highlights}>
@@ -48,7 +49,7 @@ function ProfileSummary() {
         </div>
 
         <Link to="/profile" className={styles.cta}>
-          View full profile shell
+          View full portfolio
         </Link>
       </div>
     </Panel>

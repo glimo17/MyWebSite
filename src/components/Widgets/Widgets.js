@@ -14,7 +14,7 @@ function Widgets() {
             <span aria-hidden="true" className={styles.widgetBadge} />
           </div>
           <p>{widget.description}</p>
-          <button type="button">Reserve this section</button>
+          <button type="button">{widget.cta}</button>
         </Panel>
       ))}
     </div>

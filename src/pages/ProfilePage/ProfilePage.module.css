@@ -58,6 +58,23 @@
   color: var(--muted-text);
 }
 
+.heroLinks {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.heroLinks a {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.heroLinks a:hover {
+  text-decoration: underline;
+}
+
 .heroText p,
 .aboutPanel p,
 .timelineItem p,
@@ -100,6 +117,17 @@
   gap: 16px;
 }
 
+.bulletList {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: var(--secondary-text);
+  line-height: 1.6;
+}
+
+.bulletList li + li {
+  margin-top: 6px;
+}
+
 .timelineItem,
 .cardItem {
   display: grid;
@@ -136,6 +164,21 @@
   font-weight: 600;
 }
 
+.skillGroupList {
+  display: grid;
+  gap: 16px;
+}
+
+.skillGroupCard {
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--surface-muted);
+}
+
+.skillGroupCard h3 {
+  margin: 0 0 14px;
+}
+
 .skillGrid {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +191,31 @@
   background: var(--surface-muted);
   color: var(--secondary-text);
   font-weight: 600;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.contactCard {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--surface-muted);
+  color: inherit;
+  text-decoration: none;
+}
+
+.contactCard strong,
+.contactCard span {
+  word-break: break-word;
+}
+
+.contactCard span {
+  color: var(--muted-text);
 }
 
 @media (max-width: 640px) {
@@ -163,5 +231,9 @@
   .sectionHeader {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
   }
 }

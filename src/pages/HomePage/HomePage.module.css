@@ -11,6 +11,11 @@
   min-width: 0;
 }
 
+.leftStack {
+  display: grid;
+  gap: 16px;
+}
+
 .leftColumn,
 .rightColumn {
   position: sticky;

@@ -1,93 +1,320 @@
 {
   "profile": {
-    "name": "Jean Carlos Murillo Vasquez",
-    "headline": "",
-    "location": "",
-    "about": "Short bio placeholder. Replace this with a concise introduction when real content is ready.",
-    "stats": {
-      "profileViews": "000",
-      "postImpressions": "000",
-      "connections": "000"
-    },
+    "name": "Jean Carlos Murillo Vásquez",
+    "headline": "Full-Stack Software Engineer | .NET | React | SQL | AI-Enabled Solutions",
+    "location": "Costa Rica",
+    "summary": "Experienced and versatile Full-Stack Software Engineer with over 10 years in the IT industry, with a strong focus on .NET development, SQL, and data engineering. Proven ability to design and develop scalable web applications, RESTful APIs, and data-driven solutions across cloud and on-premises environments. Experienced in building end-to-end systems, integrating backend services, databases, and modern web technologies. Strong communicator with experience collaborating with product managers, architects, and stakeholders to deliver high-quality, production-grade software solutions.",
+    "stats": [
+      {
+        "label": "Industry experience",
+        "value": "10+ years"
+      },
+      {
+        "label": ".NET focus",
+        "value": "10+ years"
+      },
+      {
+        "label": "Cloud delivery",
+        "value": "Azure, AWS, GCP"
+      }
+    ],
     "highlights": [
-      "Open to future projects",
-      "Showcase section ready",
-      "Editable content structure"
+      ".NET and SQL engineering",
+      "AI and RAG integrations",
+      "Cloud and DevOps delivery",
+      "Power Platform consulting"
     ]
+  },
+  "contact": {
+    "phones": [
+      "+506 64209388",
+      "+506 71569453"
+    ],
+    "email": "glimo17@gmail.com",
+    "github": "https://github.com/glimo17",
+    "githubLabel": "github.com/glimo17"
   },
   "feedItems": [
     {
       "id": "post-1",
-      "title": "Featured update placeholder",
-      "body": "Use this card for future posts, announcements, or case-study teasers.",
-      "tag": "Announcement",
-      "meta": "Draft content"
+      "title": "Professional Summary",
+      "body": "Full-Stack Software Engineer with 10+ years of experience building scalable web applications, RESTful APIs, data-driven platforms, and end-to-end business solutions across cloud and on-premises environments.",
+      "tag": "Overview",
+      "meta": "Software engineering profile"
     },
     {
       "id": "post-2",
-      "title": "Project spotlight placeholder",
-      "body": "Reserve this space for project previews, process notes, or links to completed work.",
-      "tag": "Project",
-      "meta": "Coming soon"
+      "title": "AI and Data Engineering Focus",
+      "body": "Hands-on experience integrating Large Language Models, Retrieval-Augmented Generation architectures, ETL pipelines, data lakes, SQL optimization, and analytics-driven systems using modern engineering practices.",
+      "tag": "AI & Data",
+      "meta": "Engineering specialization"
     },
     {
       "id": "post-3",
-      "title": "Writing or insight placeholder",
-      "body": "Future thought pieces, lessons learned, or curated updates can appear here.",
-      "tag": "Insight",
-      "meta": "Pending content"
+      "title": "Cloud, DevOps, and Delivery",
+      "body": "Experienced with Azure, AWS, GCP, CI/CD pipelines, Infrastructure as Code, production deployments, monitoring, and collaboration with architects, product managers, and stakeholders.",
+      "tag": "Cloud & DevOps",
+      "meta": "Delivery capabilities"
     }
   ],
   "widgets": [
     {
       "id": "widget-1",
-      "title": "Profile completion",
-      "description": "Placeholder widget for completion prompts, action items, or onboarding tips."
+      "title": "Primary Stack",
+      "description": ".NET, ReactJS, SQL Server, Azure, RESTful APIs, and enterprise integration work.",
+      "cta": "Technology overview"
     },
     {
       "id": "widget-2",
-      "title": "Upcoming sections",
-      "description": "Use this panel for future milestones, events, or editorial plans."
+      "title": "AI and Automation",
+      "description": "LLM integration, RAG solutions, prompt engineering, Copilot-assisted workflows, and Power Platform delivery.",
+      "cta": "Capability summary"
     },
     {
       "id": "widget-3",
-      "title": "Content ideas",
-      "description": "A reserved area for saved drafts, pinned themes, or notes."
+      "title": "Availability",
+      "description": "Open to full-stack engineering, consulting, integration, and cloud modernization work.",
+      "cta": "Contact options"
     }
   ],
   "experience": [
     {
       "id": "exp-1",
-      "role": "Role title placeholder",
-      "period": "Start date - End date",
-      "summary": "Add a concise description of responsibilities, impact, or focus areas here later."
+      "role": "Full Stack Engineer",
+      "company": "Freelance",
+      "period": "Apr 2025 - Present",
+      "summary": "Designing and delivering backend services, AI-enabled solutions, financial integrations, and production-ready full-stack systems for client needs.",
+      "highlights": [
+        "Build RESTful APIs and backend services using .NET (C#) for financial and transactional integrations.",
+        "Implement AI-driven features using Large Language Models such as Claude and GPT-4.",
+        "Build Retrieval-Augmented Generation solutions integrating SharePoint and database sources.",
+        "Design BCCR integrations, distributed POS data synchronization, and relational database optimization.",
+        "Set up CI/CD and manage deployments across Vercel and Google Cloud Platform environments."
+      ]
     },
     {
       "id": "exp-2",
-      "role": "Second role placeholder",
-      "period": "Start date - End date",
-      "summary": "A second editable slot for experience entries, consulting work, or internships."
+      "role": "Power Platform Consultant",
+      "company": "BHFE Solutions",
+      "period": "Apr 2023 - Dec 2025",
+      "summary": "Focused on DevOps, Azure integrations, Power Platform extensibility, and infrastructure automation for enterprise solutions.",
+      "highlights": [
+        "Designed, implemented, and maintained CI/CD pipelines using GitHub Actions and Azure DevOps.",
+        "Developed Azure Functions and custom SDK integrations for Power Platform using .NET (C#).",
+        "Built RESTful APIs and backend services for financial and transactional integrations.",
+        "Automated Azure provisioning with Terraform and improved security, performance, and operational stability.",
+        "Implemented monitoring, logging, and alerting with Azure Monitor, Prometheus, Grafana, and ELK Stack."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "role": "Full Stack Engineer",
+      "company": "Grupo Syntepro CR",
+      "period": "Dec 2020 - Apr 2023",
+      "summary": "Built full-stack business applications and enterprise integrations across .NET, Java, Angular, ReactJS, and SQL technologies.",
+      "highlights": [
+        "Designed full-stack web applications with .NET, Java, and ReactJS.",
+        "Led CI/CD integration through Azure DevOps.",
+        "Worked with Angular 5, .NET Core, Entity Framework Core, and Web API controllers.",
+        "Created database objects including stored procedures, functions, views, and triggers.",
+        "Developed WCF services, asynchronous web services, unit tests, and technical requirements documents."
+      ]
+    },
+    {
+      "id": "exp-4",
+      "role": "Lead Software Engineer",
+      "company": "Walmart Tech CR",
+      "period": "Dec 2016 - Dec 2020",
+      "summary": "Led data engineering and enterprise software initiatives spanning data lakes, analytics platforms, automation, and architecture design.",
+      "highlights": [
+        "Led the technical design and implementation of enterprise Data Lake solutions using SQL Server, Cosmos DB, MongoDB, SSIS, and Apache Spark.",
+        "Designed and maintained big data pipelines and data processing workflows for ingestion, transformation, and analytics.",
+        "Developed data-driven applications and data models using .NET, ReactJS, and Erwin.",
+        "Built RPA automation using UiPath and integrated CI/CD pipelines using Azure DevOps and Jenkins.",
+        "Defined architecture, technical designs, and implementation strategies while guiding cross-functional delivery teams."
+      ]
+    },
+    {
+      "id": "exp-5",
+      "role": "Software Engineer",
+      "company": "Novacomp",
+      "period": "Feb 2016 - Nov 2016",
+      "summary": "Worked on Web API development, JavaScript coding, SQL programming, and asynchronous application delivery in ASP.NET MVC environments.",
+      "highlights": [
+        "Focused on Web API development, JavaScript coding, and SQL programming.",
+        "Built and tested web services and asynchronous applications.",
+        "Developed software on ASP.NET MVC and jQuery-based interfaces.",
+        "Used Team Foundation Server and created database objects such as stored procedures, functions, views, and triggers."
+      ]
+    },
+    {
+      "id": "exp-6",
+      "role": "Software Engineer",
+      "company": "Lidersoft International S.A.",
+      "period": "Aug 2013 - Feb 2016",
+      "summary": "Delivered full-stack .NET applications, SQL components, asynchronous services, and technical documentation in Microsoft-centric environments.",
+      "highlights": [
+        "Created full-stack .NET applications and database components.",
+        "Developed software on ASP.NET MVC and wrote jQuery code.",
+        "Built database objects, WCF services, and asynchronous web services.",
+        "Worked with Team Foundation Server and technical requirements documentation."
+      ]
+    },
+    {
+      "id": "exp-7",
+      "role": "Software Engineer",
+      "company": "Avantica",
+      "period": "Jul 2012 - Aug 2013",
+      "summary": "Worked on regulatory data solutions, SQL Server reporting services, bug analysis, and backend service development.",
+      "highlights": [
+        "Developed data classes according to SUGEF requirements.",
+        "Worked with TortoiseSVN, bug analysis, and jQuery development.",
+        "Built stored procedures, functions, views, triggers, and WCF services.",
+        "Used SQL Server SSAS, SSIS, and SSRS while preparing technical requirements."
+      ]
     }
   ],
   "projects": [
     {
-      "id": "proj-1",
-      "name": "Project title placeholder",
-      "description": "Replace with project overview, stack summary, and business or technical outcome.",
-      "status": "Inactive placeholder"
+      "id": "portfolio-main",
+      "name": "Portfolio and Code Samples",
+      "description": "Central portfolio presence focused on enterprise software delivery, integrations, cloud deployments, and modern full-stack engineering practices.",
+      "status": "Active",
+      "highlights": [
+        "GitHub portfolio available at github.com/glimo17.",
+        "Experience building RESTful APIs, financial integrations, enterprise web apps, and AI-enabled software.",
+        "Production experience across cloud and on-premises systems with strong delivery ownership."
+      ]
     },
     {
       "id": "proj-2",
-      "name": "Second project placeholder",
-      "description": "Another editable card for side projects, client work, or experiments.",
-      "status": "Draft placeholder"
+      "name": "AI, Data, and Automation Solutions",
+      "description": "Portfolio specialization spanning LLM integrations, RAG pipelines, ETL systems, Power Platform implementations, and data engineering solutions.",
+      "status": "Specialization",
+      "highlights": [
+        "LLM integration with Claude, ChatGPT, and AI-assisted development workflows.",
+        "RAG architectures using external data sources including SharePoint and relational databases.",
+        "Power Automate, Power Apps, Dataverse, plugins, PCF controls, and SharePoint integration."
+      ]
     }
   ],
-  "skills": [
-    "Skill placeholder",
-    "Another skill placeholder",
-    "Tooling placeholder",
-    "Workflow placeholder",
-    "Communication placeholder"
+  "skillGroups": [
+    {
+      "category": "Languages & Frameworks",
+      "items": [
+        ".NET (10+ yrs)",
+        "Java (3 yrs)",
+        "JavaScript",
+        "ReactJS",
+        "MERN Stack"
+      ]
+    },
+    {
+      "category": "AI & GenAI",
+      "items": [
+        "Large Language Models integration",
+        "RAG architectures",
+        "Prompt Engineering",
+        "GitHub Copilot",
+        "Claude",
+        "ChatGPT",
+        "AI-enabled .NET applications"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "SQL Server",
+        "Oracle",
+        "DB2",
+        "MongoDB",
+        "Cosmos DB",
+        "Elastic Search"
+      ]
+    },
+    {
+      "category": "Data Engineering",
+      "items": [
+        "SSIS",
+        "Apache Spark",
+        "Hadoop",
+        "Power BI",
+        "Data Modeling (Erwin)",
+        "Star/Snowflake Schemas"
+      ]
+    },
+    {
+      "category": "Power Platform",
+      "items": [
+        "Power Automate",
+        "Power Apps",
+        "Dataverse",
+        "Plugins",
+        "PCF Controls",
+        "SharePoint integration",
+        "Power Platform Admin Center"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "Azure (5+ yrs)",
+        "AWS",
+        "GCP",
+        "Vercel",
+        "Azure DevOps",
+        "Jenkins",
+        "Terraform",
+        "CloudFormation",
+        "CDK"
+      ]
+    },
+    {
+      "category": "Methodologies",
+      "items": [
+        "Agile",
+        "Scrum"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "Bachelor's Degree in Computer Science",
+      "institution": "Universidad Nacional de Costa Rica",
+      "period": "2009 - 2012"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Power Platform Functional Consultant Associate (PL-200)",
+      "issuer": "Microsoft Certified",
+      "type": "Certification"
+    },
+    {
+      "id": "cert-2",
+      "name": "MCSD: App Builder, Web Applications",
+      "issuer": "Microsoft",
+      "type": "Certification"
+    },
+    {
+      "id": "cert-3",
+      "name": "MCSA: Web Applications",
+      "issuer": "Microsoft",
+      "type": "Certification"
+    },
+    {
+      "id": "cert-4",
+      "name": "MCPS: Programming in HTML5 with JavaScript and CSS3",
+      "issuer": "Microsoft",
+      "type": "Certification"
+    },
+    {
+      "id": "cert-5",
+      "name": "RPA Developer",
+      "issuer": "UiPath",
+      "type": "Certification"
+    }
   ]
 }
