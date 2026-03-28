@@ -1,0 +1,51 @@
+.skeleton {
+  margin-top: 8px;
+  display: flex;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--surface-muted);
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.lines {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+}
+
+.avatar,
+.lines span {
+  background: linear-gradient(90deg, #dfe8f0 25%, #edf3f7 50%, #dfe8f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.lines span {
+  display: block;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.lines span:nth-child(2) {
+  width: 80%;
+}
+
+.lines span:nth-child(3) {
+  width: 62%;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+
+  to {
+    background-position: -200% 0;
+  }
+}

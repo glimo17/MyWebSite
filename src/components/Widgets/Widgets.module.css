@@ -1,0 +1,47 @@
+.widgets {
+  display: grid;
+  gap: 16px;
+}
+
+.widgetCard {
+  padding: 18px;
+}
+
+.widgetHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.widgetHeader h3,
+.widgetCard p {
+  margin: 0;
+}
+
+.widgetCard p {
+  margin-top: 12px;
+  color: var(--muted-text);
+  line-height: 1.6;
+}
+
+.widgetCard button {
+  margin-top: 16px;
+  min-height: 42px;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--surface-muted);
+  color: var(--secondary-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.widgetBadge {
+  width: 11px;
+  height: 11px;
+  border-radius: 999px;
+  background: #0a66c2;
+  box-shadow: 0 0 0 6px rgba(10, 102, 194, 0.12);
+}

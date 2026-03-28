@@ -1,0 +1,15 @@
+.appShell {
+  min-height: 100vh;
+}
+
+.pageArea {
+  width: min(1120px, calc(100% - 32px));
+  margin: 24px auto 40px;
+}
+
+@media (max-width: 768px) {
+  .pageArea {
+    width: min(100%, calc(100% - 20px));
+    margin-top: 18px;
+  }
+}

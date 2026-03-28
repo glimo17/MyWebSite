@@ -1,0 +1,100 @@
+{
+  "profile": {
+    "name": "Your Name Here",
+    "headline": "Portfolio headline placeholder",
+    "location": "Location placeholder",
+    "about": "Short bio placeholder. Replace this with a concise introduction when real content is ready.",
+    "stats": {
+      "profileViews": "000",
+      "postImpressions": "000",
+      "connections": "000"
+    },
+    "highlights": [
+      "Open to future projects",
+      "Showcase section ready",
+      "Editable content structure"
+    ]
+  },
+  "navigation": [
+    { "label": "Home", "path": "/" },
+    { "label": "My Network", "path": "/" },
+    { "label": "Projects", "path": "/profile" },
+    { "label": "Notifications", "path": "/" },
+    { "label": "Me", "path": "/profile" }
+  ],
+  "feedItems": [
+    {
+      "id": "post-1",
+      "title": "Featured update placeholder",
+      "body": "Use this card for future posts, announcements, or case-study teasers.",
+      "tag": "Announcement",
+      "meta": "Draft content"
+    },
+    {
+      "id": "post-2",
+      "title": "Project spotlight placeholder",
+      "body": "Reserve this space for project previews, process notes, or links to completed work.",
+      "tag": "Project",
+      "meta": "Coming soon"
+    },
+    {
+      "id": "post-3",
+      "title": "Writing or insight placeholder",
+      "body": "Future thought pieces, lessons learned, or curated updates can appear here.",
+      "tag": "Insight",
+      "meta": "Pending content"
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget-1",
+      "title": "Profile completion",
+      "description": "Placeholder widget for completion prompts, action items, or onboarding tips."
+    },
+    {
+      "id": "widget-2",
+      "title": "Upcoming sections",
+      "description": "Use this panel for future milestones, events, or editorial plans."
+    },
+    {
+      "id": "widget-3",
+      "title": "Content ideas",
+      "description": "A reserved area for saved drafts, pinned themes, or notes."
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Role title placeholder",
+      "period": "Start date - End date",
+      "summary": "Add a concise description of responsibilities, impact, or focus areas here later."
+    },
+    {
+      "id": "exp-2",
+      "role": "Second role placeholder",
+      "period": "Start date - End date",
+      "summary": "A second editable slot for experience entries, consulting work, or internships."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Project title placeholder",
+      "description": "Replace with project overview, stack summary, and business or technical outcome.",
+      "status": "Inactive placeholder"
+    },
+    {
+      "id": "proj-2",
+      "name": "Second project placeholder",
+      "description": "Another editable card for side projects, client work, or experiments.",
+      "status": "Draft placeholder"
+    }
+  ],
+  "skills": [
+    "Skill placeholder",
+    "Another skill placeholder",
+    "Tooling placeholder",
+    "Workflow placeholder",
+    "Communication placeholder"
+  ]
+}

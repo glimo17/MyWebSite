@@ -1,0 +1,167 @@
+.page {
+  display: grid;
+  gap: 18px;
+}
+
+.heroPanel {
+  overflow: hidden;
+}
+
+.heroBackdrop {
+  height: 180px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.8), transparent 26%),
+    linear-gradient(135deg, #0a66c2, #74b6f7 50%, #f3f8fd);
+}
+
+.heroContent {
+  margin-top: -52px;
+  padding: 0 26px 26px;
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+
+.heroAvatar {
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  border: 5px solid #ffffff;
+  border-radius: 24px;
+  background: #dce8f4;
+  color: #32485f;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.heroText h1,
+.heroText p,
+.heroText span,
+.aboutPanel p,
+.timelineItem h3,
+.timelineItem span,
+.timelineItem p,
+.cardItem h3,
+.cardItem p,
+.cardItem span {
+  margin: 0;
+}
+
+.heroText p,
+.heroText span,
+.aboutPanel p,
+.timelineItem span,
+.timelineItem p,
+.cardItem p,
+.cardItem span {
+  color: var(--muted-text);
+}
+
+.heroText p,
+.aboutPanel p,
+.timelineItem p,
+.cardItem p {
+  line-height: 1.65;
+}
+
+.aboutPanel,
+.sectionPanel {
+  padding: 22px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.sectionHeader button {
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--secondary-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sectionContent {
+  display: grid;
+  gap: 16px;
+}
+
+.timelineItem,
+.cardItem {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 16px;
+  background: var(--surface-muted);
+}
+
+.timelineItem {
+  grid-template-columns: auto 1fr;
+}
+
+.timelineMarker {
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+  border-radius: 999px;
+  background: #0a66c2;
+  box-shadow: 0 0 0 7px rgba(10, 102, 194, 0.12);
+}
+
+.cardItem {
+  grid-template-columns: 1fr auto;
+  align-items: start;
+}
+
+.cardItem span {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: #ffffff;
+  font-size: 0.84rem;
+  color: #0a66c2;
+  font-weight: 600;
+}
+
+.skillGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skillGrid span {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--surface-muted);
+  color: var(--secondary-text);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .heroContent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardItem {
+    grid-template-columns: 1fr;
+  }
+
+  .sectionHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
