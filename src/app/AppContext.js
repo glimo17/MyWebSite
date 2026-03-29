@@ -1,16 +1,18 @@
-import { createContext, useContext, useMemo, useState } from 'react';
-import portfolioData from '../data/portfolioData.json';
+import { createContext, useContext, useMemo } from 'react';
+import dataEn from '../data/portfolioData.json';
+import dataEs from '../data/portfolioData.es.json';
+import { useLang } from './LangContext';
+
+const portfolioByLang = { en: dataEn, es: dataEs };
 
 const AppContext = createContext(null);
 
 export function AppProvider({ children }) {
-  const [portfolio, setPortfolio] = useState(portfolioData);
+  const { lang } = useLang();
+  const portfolio = portfolioByLang[lang] ?? dataEn;
 
   const value = useMemo(
-    () => ({
-      portfolio,
-      setPortfolio,
-    }),
+    () => ({ portfolio }),
     [portfolio]
   );
 

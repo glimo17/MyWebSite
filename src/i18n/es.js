@@ -1,0 +1,66 @@
+const es = {
+  nav: {
+    profile: 'Perfil',
+    portfolio: 'Portafolio',
+    skills: 'Habilidades',
+    contact: 'Contacto',
+  },
+  auth: {
+    login: 'Iniciar sesión',
+    loginTitle: 'Acceder',
+    loginAction: 'Entrar',
+    loggingIn: 'Validando credenciales...',
+    logout: 'Cerrar sesión',
+    usernameLabel: 'Usuario',
+    passwordLabel: 'Contraseña',
+    cancel: 'Cancelar',
+    close: 'Cerrar',
+    eyebrow: 'Acceso Demo',
+    subtitle: 'Usa la cuenta demo configurada para activar el estado autenticado en este portfolio.',
+    invalidCredentials: 'Usuario o contraseña inválidos.',
+    missingConfig: 'La autenticación no está configurada. Define REACT_APP_AUTH_USERNAME y REACT_APP_AUTH_PASSWORD_HASH en .env.',
+    genericError: 'Ocurrió un error al intentar iniciar sesión.',
+  },
+  profile: {
+    about: 'Acerca de mí',
+  },
+  experience: {
+    title: 'Experiencia',
+    seeMore: '...ver más',
+    seeLess: '...ver menos',
+  },
+  skills: {
+    title: 'Habilidades y Tecnología',
+    subtitle: 'Más de 10 años de ingeniería práctica en lenguajes, plataformas, nube e IA.',
+  },
+  portfolio: {
+    title: 'Portafolio',
+    subtitle: 'Sección de tarjetas de proyectos.',
+  },
+  contact: {
+    emailLabel: 'Correo',
+    phoneLabel: 'Teléfono',
+    githubLabel: 'GitHub',
+    formTitle: 'Envíame un mensaje',
+    nameLabel: 'Nombre',
+    namePlaceholder: 'Tu nombre',
+    emailFieldLabel: 'Correo',
+    emailPlaceholder: 'tu@correo.com',
+    subjectLabel: 'Asunto',
+    subjectPlaceholder: '¿De qué se trata?',
+    messageLabel: 'Mensaje',
+    messagePlaceholder: 'Escribe tu mensaje aquí…',
+    submit: 'Enviar Mensaje',
+  },
+  pdf: {
+    downloadBtn: 'Descargar CV',
+    generating: 'Generando PDF…',
+    summary: 'Resumen Profesional',
+    experience: 'Experiencia',
+    skills: 'Habilidades y Tecnologías',
+    education: 'Educación',
+    certifications: 'Certificaciones',
+  },
+};
+
+export default es;

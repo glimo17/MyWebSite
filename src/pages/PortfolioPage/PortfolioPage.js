@@ -1,3 +1,4 @@
+import { useLang } from '../../app/LangContext';
 import Panel from '../../components/Shared/Panel';
 import styles from './PortfolioPage.module.css';
 
@@ -23,12 +24,13 @@ const placeholderProjects = [
 ];
 
 function PortfolioPage() {
+  const { t } = useLang();
   return (
     <div className={styles.page}>
       <Panel className={styles.sectionPanel}>
         <div className={styles.sectionHeader}>
-          <h1>Portfolio</h1>
-          <p>Project cards placeholder section.</p>
+          <h1>{t.portfolio.title}</h1>
+          <p>{t.portfolio.subtitle}</p>
         </div>
 
         <div className={styles.projectGrid}>

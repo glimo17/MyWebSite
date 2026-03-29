@@ -1,0 +1,66 @@
+const en = {
+  nav: {
+    profile: 'Profile',
+    portfolio: 'Portfolio',
+    skills: 'Skills',
+    contact: 'Contact',
+  },
+  auth: {
+    login: 'Login',
+    loginTitle: 'Sign in',
+    loginAction: 'Login',
+    loggingIn: 'Checking credentials...',
+    logout: 'Logout',
+    usernameLabel: 'Username',
+    passwordLabel: 'Password',
+    cancel: 'Cancel',
+    close: 'Close',
+    eyebrow: 'Demo Access',
+    subtitle: 'Use the configured demo account to unlock the authenticated state for this portfolio shell.',
+    invalidCredentials: 'Invalid username or password.',
+    missingConfig: 'Authentication is not configured. Set REACT_APP_AUTH_USERNAME and REACT_APP_AUTH_PASSWORD_HASH in .env.',
+    genericError: 'Something went wrong while trying to log in.',
+  },
+  profile: {
+    about: 'About',
+  },
+  experience: {
+    title: 'Experience',
+    seeMore: '...see more',
+    seeLess: '...see less',
+  },
+  skills: {
+    title: 'Skills & Technology',
+    subtitle: '10+ years of hands-on engineering across languages, platforms, cloud, and AI.',
+  },
+  portfolio: {
+    title: 'Portfolio',
+    subtitle: 'Project cards section.',
+  },
+  contact: {
+    emailLabel: 'Email',
+    phoneLabel: 'Phone',
+    githubLabel: 'GitHub',
+    formTitle: 'Send me a message',
+    nameLabel: 'Name',
+    namePlaceholder: 'Your name',
+    emailFieldLabel: 'Email',
+    emailPlaceholder: 'your@email.com',
+    subjectLabel: 'Subject',
+    subjectPlaceholder: "What's this about?",
+    messageLabel: 'Message',
+    messagePlaceholder: 'Write your message here…',
+    submit: 'Send Message',
+  },
+  pdf: {
+    downloadBtn: 'Download Resume',
+    generating: 'Generating PDF…',
+    summary: 'Professional Summary',
+    experience: 'Experience',
+    skills: 'Skills & Technologies',
+    education: 'Education',
+    certifications: 'Certifications',
+  },
+};
+
+export default en;

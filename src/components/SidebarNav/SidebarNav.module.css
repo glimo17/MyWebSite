@@ -1,60 +1,198 @@
-.sidebarPanel {
-  padding: 18px;
-  background: #f8fafc;
-  border-color: #d8e1eb;
+.navWrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
-.brandBlock {
+.brand {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 18px;
+  flex-shrink: 0;
+  text-decoration: none;
 }
 
-.brandBlock h2 {
-  margin: 0;
-  font-size: 1.04rem;
-  color: var(--secondary-text);
+.authArea {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.brandDot {
-  width: 10px;
-  height: 10px;
+.brandAvatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0a66c2 0%, #1a90ff 100%);
+  color: #fff;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.loginTrigger,
+.logoutButton {
+  min-height: 38px;
+  padding: 0 15px;
   border-radius: 999px;
-  background: #0a66c2;
+  border: 1px solid #d9e2eb;
+  background: #ffffff;
+  color: #334155;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 100ms ease, border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.loginTrigger {
+  border-color: rgba(10, 102, 194, 0.2);
+  background: linear-gradient(135deg, rgba(10, 102, 194, 0.08), rgba(26, 144, 255, 0.12));
+  color: #0a66c2;
+}
+
+.loginTrigger:hover,
+.logoutButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+}
+
+.userChip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #0a66c2;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .nav {
-  display: grid;
-  gap: 8px;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  gap: 2px;
+  flex: 1;
+  justify-content: center;
 }
 
 .navItem {
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-height: 42px;
-  padding: 0 12px;
-  border-radius: 10px;
-  color: #5f6b77;
-  text-decoration: none;
+  padding: 0 20px;
+  height: 100%;
+  color: #64748b;
   font-weight: 600;
-  transition: background 160ms ease, color 160ms ease;
+  font-size: 0.88rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition: color 140ms ease, border-color 140ms ease;
 }
 
 .navItem:hover {
-  background: #edf3f8;
-  color: var(--primary-text);
+  color: #0f172a;
+  border-bottom-color: #cbd5e1;
 }
 
 .navItemActive {
-  background: #e8f1fb;
   color: #0a66c2;
+  border-bottom-color: #0a66c2;
 }
 
-.navIcon {
-  width: 14px;
-  height: 14px;
+/* Language switcher — segmented control */
+.langSwitch {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
   border-radius: 999px;
-  border: 1.6px solid currentColor;
+  padding: 3px;
+  gap: 2px;
+}
+
+.langDivider {
+  display: none;
+}
+
+.langBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: #64748b;
+  padding: 5px 13px;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: color 150ms ease, background 150ms ease, box-shadow 150ms ease;
+  line-height: 1;
+}
+
+.langBtn:hover {
+  color: #0f172a;
+  background: rgba(255,255,255,0.6);
+}
+
+.langBtnActive {
+  background: #ffffff;
+  color: #0a66c2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(10, 102, 194, 0.15);
+  font-weight: 700;
+}
+
+/* Spanish button — more prominent inactive state */
+.langBtnEs {
+  color: #475569;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.langBtnEs:hover {
+  color: #0a66c2;
+  background: rgba(10, 102, 194, 0.07);
+}
+
+/* Spanish active — vivid gradient pill */
+.langBtnEs.langBtnActive {
+  background: linear-gradient(135deg, #0a66c2 0%, #1a90ff 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(10, 102, 194, 0.35), 0 0 0 1px rgba(10, 102, 194, 0.2);
+  font-weight: 700;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .navWrapper {
+    padding: 0 12px;
+    gap: 12px;
+  }
+
+  .navItem {
+    padding: 0 14px;
+  }
+
+  .userChip {
+    max-width: 112px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

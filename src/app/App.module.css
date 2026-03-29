@@ -1,19 +1,16 @@
+.topBar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
 .appShell {
   width: min(1120px, calc(100% - 32px));
-  margin: 24px auto 40px;
-  display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 20px;
-  min-height: 100vh;
-}
-
-.sidebarArea {
-  min-width: 0;
-}
-
-.sidebarSticky {
-  position: sticky;
-  top: 24px;
+  margin: 32px auto 60px;
+  min-height: 80vh;
 }
 
 .pageArea {
@@ -23,11 +20,6 @@
 @media (max-width: 860px) {
   .appShell {
     width: min(100%, calc(100% - 20px));
-    grid-template-columns: 1fr;
-    margin-top: 18px;
-  }
-
-  .sidebarSticky {
-    position: static;
+    margin-top: 20px;
   }
 }

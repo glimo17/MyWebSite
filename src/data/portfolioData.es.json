@@ -1,0 +1,357 @@
+{
+  "profile": {
+    "name": "Jean Carlos Murillo Vásquez",
+    "headline": "Ingeniero de Software Full-Stack | .NET | React | SQL | Soluciones con IA",
+    "location": "Costa Rica",
+    "summary": "Ingeniero de Software Full-Stack experimentado y versátil con más de 10 años en la industria de TI, con sólida especialización en desarrollo .NET, SQL e ingeniería de datos. Capacidad comprobada para diseñar y desarrollar aplicaciones web escalables, APIs RESTful y soluciones orientadas a datos en entornos cloud y on-premises. Experiencia en la construcción de sistemas end-to-end, integración de servicios backend, bases de datos y tecnologías web modernas. Comunicador efectivo con experiencia colaborando con gerentes de producto, arquitectos y stakeholders para entregar soluciones de software de alta calidad y nivel productivo.",
+    "stats": [
+      {
+        "label": "Experiencia en la industria",
+        "value": "10+ años"
+      },
+      {
+        "label": "Enfoque en .NET",
+        "value": "10+ años"
+      },
+      {
+        "label": "Entrega en la nube",
+        "value": "Azure, AWS, GCP"
+      }
+    ],
+    "highlights": [
+      "Ingeniería .NET y SQL",
+      "Integraciones de IA y RAG",
+      "Entrega en Cloud y DevOps",
+      "Consultoría en Power Platform"
+    ]
+  },
+  "contact": {
+    "phones": [
+      "+506 64209388",
+      "+506 71569453"
+    ],
+    "email": "glimo17@gmail.com",
+    "github": "https://github.com/glimo17",
+    "githubLabel": "github.com/glimo17"
+  },
+  "feedItems": [
+    {
+      "id": "post-1",
+      "title": "Resumen Profesional",
+      "body": "Ingeniero de Software Full-Stack con más de 10 años de experiencia construyendo aplicaciones web escalables, APIs RESTful, plataformas orientadas a datos y soluciones de negocio end-to-end en entornos cloud y on-premises.",
+      "tag": "Resumen",
+      "meta": "Perfil de ingeniería de software"
+    },
+    {
+      "id": "post-2",
+      "title": "Especialización en IA e Ingeniería de Datos",
+      "body": "Experiencia práctica integrando Modelos de Lenguaje Grandes, arquitecturas RAG, pipelines ETL, data lakes, optimización SQL y sistemas analíticos usando prácticas modernas de ingeniería.",
+      "tag": "IA y Datos",
+      "meta": "Especialización técnica"
+    },
+    {
+      "id": "post-3",
+      "title": "Nube, DevOps y Entrega",
+      "body": "Experiencia con Azure, AWS, GCP, pipelines CI/CD, Infraestructura como Código, despliegues en producción, monitoreo y colaboración con arquitectos, gerentes de producto y stakeholders.",
+      "tag": "Nube y DevOps",
+      "meta": "Capacidades de entrega"
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget-1",
+      "title": "Stack Principal",
+      "description": ".NET, ReactJS, SQL Server, Azure, APIs RESTful e integración empresarial.",
+      "cta": "Resumen tecnológico"
+    },
+    {
+      "id": "widget-2",
+      "title": "IA y Automatización",
+      "description": "Integración LLM, soluciones RAG, ingeniería de prompts, flujos asistidos por Copilot y entrega en Power Platform.",
+      "cta": "Resumen de capacidades"
+    },
+    {
+      "id": "widget-3",
+      "title": "Disponibilidad",
+      "description": "Disponible para ingeniería full-stack, consultoría, integración y modernización en la nube.",
+      "cta": "Opciones de contacto"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Ingeniero Full Stack",
+      "company": "Freelance",
+      "period": "Abr 2025 - Presente",
+      "summary": "Capaz de construir APIs RESTful y servicios backend usando .NET (C#) para integraciones financieras y transaccionales. Implementó funcionalidades impulsadas por IA usando Modelos de Lenguaje Grandes como Claude y GPT-4. Construyó soluciones de Generación Aumentada por Recuperación (RAG) integrando fuentes de datos externas para mejorar las respuestas de IA.",
+      "highlights": [
+        "Capaz de construir APIs RESTful y servicios backend usando .NET (C#) para integraciones financieras y transaccionales.",
+        "Implementó funcionalidades impulsadas por IA usando Modelos de Lenguaje Grandes como Claude y GPT-4.",
+        "Construyó soluciones RAG integrando fuentes de datos externas (SharePoint, bases de datos) para mejorar respuestas de IA.",
+        "Utilizó herramientas como GitHub Copilot para mejorar la velocidad de desarrollo y la calidad del código.",
+        "Capaz de diseñar y desarrollar integraciones de API para el BCCR, habilitando comunicación segura e intercambio de datos financieros.",
+        "Capaz de implementar conectividad de bases de datos y sincronización de datos entre terminales POS distribuidas usando SQL Server y MySQL.",
+        "Capaz de diseñar y optimizar bases de datos relacionales, procedimientos almacenados y consultas para entornos transaccionales de alto volumen.",
+        "Capaz de configurar pipelines CI/CD y gestionar despliegues en la nube usando Vercel y Google Cloud Platform (GCP).",
+        "Capaz de gestionar entornos de producción, configuración de dominio, mantenimiento y corrección de errores.",
+        "Capaz de aplicar metodologías Ágiles y prácticas de pruebas continuas para garantizar la calidad del código."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Consultor Power Platform",
+      "company": "BHFE Solutions",
+      "period": "Abr 2023 - Dic 2025",
+      "summary": "Capaz de diseñar, implementar y mantener pipelines CI/CD usando GitHub Actions y Azure DevOps. Capaz de desarrollar Azure Functions y construir integraciones SDK personalizadas para Power Platform usando .NET (C#).",
+      "highlights": [
+        "Capaz de diseñar, implementar y mantener pipelines CI/CD usando GitHub Actions y Azure DevOps.",
+        "Capaz de desarrollar Azure Functions y construir integraciones SDK personalizadas para Power Platform usando .NET (C#).",
+        "Capaz de construir APIs RESTful y servicios backend usando .NET (C#) para integraciones financieras y transaccionales.",
+        "Capaz de automatizar el aprovisionamiento de infraestructura cloud en Azure usando Terraform (Infraestructura como Código).",
+        "Capaz de aplicar buenas prácticas DevOps para mejorar la seguridad, el rendimiento y la estabilidad operacional del sistema.",
+        "Capaz de implementar soluciones de monitoreo, logging y alertas usando Azure Monitor, Prometheus, Grafana y ELK Stack.",
+        "Capaz de realizar troubleshooting y análisis de causa raíz en entornos de desarrollo, pruebas y producción.",
+        "Capaz de mejorar continuamente los procesos de despliegue para aumentar eficiencia, calidad y velocidad de entrega.",
+        "Capaz de trabajar con aplicaciones contenerizadas y arquitecturas de microservicios usando Docker y Kubernetes."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "role": "Ingeniero Full Stack",
+      "company": "Grupo Syntepro CR",
+      "period": "Dic 2020 - Abr 2023",
+      "summary": "Diseñó aplicaciones web full-stack con .NET, Java y ReactJS. Lideró la integración CI/CD a través de Azure DevOps y entregó integraciones empresariales con SQL y servicios web.",
+      "highlights": [
+        "Diseñó aplicaciones web full-stack con .NET, Java y ReactJS.",
+        "Lideró la integración CI/CD a través de Azure DevOps.",
+        "Capaz de programar en Angular 5 con .NET Core.",
+        "Entity Framework 2.0 Core.",
+        "Capaz de crear controladores Web API.",
+        "Capaz de escribir código JavaScript.",
+        "Capaz de usar Git.",
+        "Capaz de crear y ejecutar pruebas unitarias.",
+        "Capaz de crear objetos de base de datos como Stored Procedures, Funciones, Vistas y Triggers.",
+        "Capaz de identificar y corregir problemas en código C#.",
+        "Capaz de crear e invocar Web Services (WCF).",
+        "Desarrollador SQL.",
+        "Capaz de crear servicios web asíncronos.",
+        "Capaz de escribir documentos de requerimientos. Habilidades técnicas: C#, SQL, Javascript, .Net Core, .Net Framework, Bootstrap."
+      ]
+    },
+    {
+      "id": "exp-4",
+      "role": "Ingeniero de Software Líder",
+      "company": "Walmart Tech CR",
+      "period": "Dic 2016 - Dic 2020",
+      "summary": "Capaz de liderar el diseño técnico e implementación de soluciones empresariales de Data Lake, pipelines de big data y aplicaciones web orientadas a datos en entornos habilitados para la nube.",
+      "highlights": [
+        "Capaz de liderar el diseño técnico e implementación de soluciones empresariales de Data Lake usando SQL Server, Cosmos DB, MongoDB, SSIS y Apache Spark.",
+        "Capaz de diseñar y mantener pipelines de big data y flujos de procesamiento de datos para ingestión, transformación y análisis a gran escala.",
+        "Capaz de desarrollar aplicaciones web y modelos de datos orientados a datos usando .NET, ReactJS y Erwin.",
+        "Capaz de construir soluciones de automatización RPA usando UiPath e integrar pipelines CI/CD con Azure DevOps y Jenkins.",
+        "Capaz de definir arquitectura de sistemas, diseños técnicos y estrategias de implementación basadas en requerimientos técnicos y de negocio.",
+        "Capaz de guiar equipos de desarrollo y colaborar con Gerentes de Proyecto, Analistas de Negocio y stakeholders durante el ciclo de vida del proyecto.",
+        "Capaz de implementar estándares de codificación, mejores prácticas arquitectónicas y garantizar alta calidad del código en el proyecto.",
+        "Capaz de realizar análisis de sistemas, pruebas de integración y validación end-to-end para plataformas de datos empresariales."
+      ]
+    },
+    {
+      "id": "exp-5",
+      "role": "Ingeniero de Software",
+      "company": "Novacomp",
+      "period": "Feb 2016 - Nov 2016",
+      "summary": "Enfocado en el desarrollo de Web API, programación JavaScript y SQL. Construyó y probó servicios web y aplicaciones asincrónicas en entornos ASP.NET MVC.",
+      "highlights": [
+        "Enfocado en el desarrollo de Web API, programación JavaScript y SQL.",
+        "Construyó y probó servicios web y aplicaciones asincrónicas.",
+        "Desarrollador web en ASP .NET MVC.",
+        "Capaz de escribir código jQuery.",
+        "Capaz de usar Team Foundation Server.",
+        "Capaz de crear objetos de base de datos como Stored Procedures, Funciones, Vistas y Triggers.",
+        "Capaz de identificar y corregir problemas en código C#.",
+        "Capaz de crear e invocar Web Services (WCF)."
+      ]
+    },
+    {
+      "id": "exp-6",
+      "role": "Ingeniero de Software",
+      "company": "Lidersoft International S.A.",
+      "period": "Ago 2013 - Feb 2016",
+      "summary": "Creó aplicaciones .NET full-stack y componentes de base de datos, incluyendo soluciones ASP.NET MVC, servicios asíncronos, desarrollo SQL y documentación técnica.",
+      "highlights": [
+        "Creó aplicaciones .NET full-stack y componentes de base de datos.",
+        "Desarrollador web en ASP .NET MVC.",
+        "Capaz de escribir código jQuery.",
+        "Capaz de usar Team Foundation Server.",
+        "Capaz de crear objetos de base de datos como Stored Procedures, Funciones, Vistas y Triggers.",
+        "Capaz de identificar y corregir problemas en código C#.",
+        "Capaz de crear e invocar Web Services (WCF).",
+        "Desarrollador SQL.",
+        "Capaz de crear servicios web asíncronos.",
+        "Capaz de escribir documentos de requerimientos.",
+        "Team Foundation Server."
+      ]
+    },
+    {
+      "id": "exp-7",
+      "role": "Ingeniero de Software",
+      "company": "Avantica",
+      "period": "Jul 2012 - Ago 2013",
+      "summary": "Desarrollador de clases de datos según los requisitos de SUGEF, con entrega de stack SQL Server, integración de servicios web y soporte en análisis de defectos.",
+      "highlights": [
+        "Desarrollador de la clase de datos según la normativa SUGEF.",
+        "Capaz de usar Subversion con el cliente Tortoise.",
+        "Capaz de comprender y analizar defectos según los requerimientos SUGEF.",
+        "Capaz de escribir código jQuery.",
+        "Capaz de crear objetos de base de datos como Stored Procedures, Funciones, Vistas y Triggers.",
+        "Capaz de identificar y corregir problemas en código C#.",
+        "Capaz de crear e invocar Web Services (WCF).",
+        "Desarrollador SQL. Capaz de escribir documentos de requerimientos.",
+        "SQL Server (SSAS, SSIS, SSRS)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "portfolio-main",
+      "name": "Portfolio y Muestras de Código",
+      "description": "Presencia central de portfolio enfocada en entrega de software empresarial, integraciones, despliegues en la nube y prácticas modernas de ingeniería full-stack.",
+      "status": "Activo",
+      "highlights": [
+        "Portfolio en GitHub disponible en github.com/glimo17.",
+        "Experiencia construyendo APIs RESTful, integraciones financieras, aplicaciones web empresariales y software con IA.",
+        "Experiencia en producción en sistemas cloud y on-premises con fuerte propiedad de la entrega."
+      ]
+    },
+    {
+      "id": "proj-2",
+      "name": "Soluciones de IA, Datos y Automatización",
+      "description": "Especialización del portfolio abarcando integraciones LLM, pipelines RAG, sistemas ETL, implementaciones de Power Platform y soluciones de ingeniería de datos.",
+      "status": "Especialización",
+      "highlights": [
+        "Integración LLM con Claude, ChatGPT y flujos de trabajo de desarrollo asistido por IA.",
+        "Arquitecturas RAG usando fuentes de datos externas incluyendo SharePoint y bases de datos relacionales.",
+        "Power Automate, Power Apps, Dataverse, plugins, controles PCF e integración con SharePoint."
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "category": "Lenguajes y Frameworks",
+      "items": [
+        ".NET (10+ años)",
+        "Java (3 años)",
+        "JavaScript",
+        "ReactJS",
+        "MERN Stack"
+      ]
+    },
+    {
+      "category": "IA y GenIA",
+      "items": [
+        "Integración de Modelos de Lenguaje Grandes",
+        "Arquitecturas RAG",
+        "Ingeniería de Prompts",
+        "GitHub Copilot",
+        "Claude",
+        "ChatGPT",
+        "Aplicaciones .NET con IA"
+      ]
+    },
+    {
+      "category": "Bases de Datos",
+      "items": [
+        "SQL Server",
+        "Oracle",
+        "DB2",
+        "MongoDB",
+        "Cosmos DB",
+        "Elastic Search"
+      ]
+    },
+    {
+      "category": "Ingeniería de Datos",
+      "items": [
+        "SSIS",
+        "Apache Spark",
+        "Hadoop",
+        "Power BI",
+        "Modelado de Datos (Erwin)",
+        "Esquemas Star/Snowflake"
+      ]
+    },
+    {
+      "category": "Power Platform",
+      "items": [
+        "Power Automate",
+        "Power Apps",
+        "Dataverse",
+        "Plugins",
+        "Controles PCF",
+        "Integración con SharePoint",
+        "Power Platform Admin Center"
+      ]
+    },
+    {
+      "category": "Nube y DevOps",
+      "items": [
+        "Azure (5+ años)",
+        "AWS",
+        "GCP",
+        "Vercel",
+        "Azure DevOps",
+        "Jenkins",
+        "Terraform",
+        "CloudFormation",
+        "CDK"
+      ]
+    },
+    {
+      "category": "Metodologías",
+      "items": [
+        "Ágil",
+        "Scrum"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "Licenciatura en Ciencias de la Computación",
+      "institution": "Universidad Nacional de Costa Rica",
+      "period": "2009 - 2012"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "Power Platform Functional Consultant Associate (PL-200)",
+      "issuer": "Microsoft Certified",
+      "type": "Certificación"
+    },
+    {
+      "id": "cert-2",
+      "name": "MCSD: App Builder, Web Applications",
+      "issuer": "Microsoft",
+      "type": "Certificación"
+    },
+    {
+      "id": "cert-3",
+      "name": "MCSA: Web Applications",
+      "issuer": "Microsoft",
+      "type": "Certificación"
+    },
+    {
+      "id": "cert-4",
+      "name": "MCPS: Programming in HTML5 with JavaScript and CSS3",
+      "issuer": "Microsoft",
+      "type": "Certificación"
+    },
+    {
+      "id": "cert-5",
+      "name": "RPA Developer",
+      "issuer": "UiPath",
+      "type": "Certificación"
+    }
+  ]
+}

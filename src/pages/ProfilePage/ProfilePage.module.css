@@ -22,17 +22,45 @@
   gap: 18px;
 }
 
+.heroActions {
+  margin-top: 14px;
+}
+
+.downloadBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #0a66c2 0%, #1a90ff 100%);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  box-shadow: 0 2px 8px rgba(10, 102, 194, 0.28);
+  transition: filter 150ms ease, transform 100ms ease, box-shadow 150ms ease;
+  white-space: nowrap;
+}
+
+.downloadBtn:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.38);
+}
+
+.downloadBtn:active {
+  transform: scale(0.97);
+}
+
 .heroAvatar {
   width: 112px;
   height: 112px;
-  display: grid;
-  place-items: center;
   border: 5px solid #ffffff;
   border-radius: 24px;
+  object-fit: cover;
+  object-position: center 22%;
   background: #dce8f4;
-  color: #32485f;
-  font-size: 2rem;
-  font-weight: 700;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
 }
 
 .heroText h1,
@@ -51,6 +79,10 @@
 .cardItem p,
 .cardItem span {
   color: var(--muted-text);
+}
+
+.heroText h1 {
+  margin-bottom: 18px;
 }
 
 .heroLinks {
