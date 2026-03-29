@@ -152,3 +152,141 @@
     margin-top: 2px;
   }
 }
+
+/* ── EDIT MODE ── */
+.sectionPanelEditing {
+  outline: 2px solid rgba(245, 158, 11, 0.5);
+  outline-offset: -2px;
+}
+
+.itemCardEditing {
+  border-color: #f59e0b;
+  background: #fffdf5;
+}
+
+.editTopRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.editInput {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1.5px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  font-family: inherit;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+  box-sizing: border-box;
+}
+
+.editInput:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+}
+
+.editInputPeriod {
+  width: 180px;
+  flex-shrink: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.editInputCompany {
+  margin-bottom: 8px;
+  color: #0a66c2;
+  font-weight: 500;
+}
+
+.editTextarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1.5px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: var(--primary-text);
+  line-height: 1.55;
+  resize: vertical;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.editTextarea:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+}
+
+.editTextareaSmall {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.highlightsEdit {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e8edf3;
+}
+
+.highlightsEditLabel {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted-text);
+}
+
+.highlightEditRow {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.removeHighlightBtn {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin-top: 4px;
+  border: 1.5px solid #fca5a5;
+  border-radius: 6px;
+  background: #fff;
+  color: #ef4444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.removeHighlightBtn:hover {
+  background: #fef2f2;
+}
+
+.addHighlightBtn {
+  margin-top: 4px;
+  padding: 6px 14px;
+  border: 1.5px dashed #0a66c2;
+  border-radius: 8px;
+  background: transparent;
+  color: #0a66c2;
+  font-size: 0.84rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.addHighlightBtn:hover {
+  background: rgba(10, 102, 194, 0.06);
+}

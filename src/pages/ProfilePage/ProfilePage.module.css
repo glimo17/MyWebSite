@@ -85,6 +85,146 @@
   margin-bottom: 18px;
 }
 
+/* ── EDIT BANNER ── */
+.editBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(245, 158, 11, 0.3);
+  gap: 12px;
+}
+
+.editBannerLabel {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #78350f;
+  letter-spacing: 0.2px;
+}
+
+.editBannerActions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.saveBtn {
+  padding: 7px 18px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #16a34a 0%, #22c55e 100%);
+  color: #fff;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.35);
+  transition: filter 150ms ease, transform 100ms ease;
+}
+
+.saveBtn:hover {
+  filter: brightness(1.08);
+}
+
+.saveBtn:active {
+  transform: scale(0.96);
+}
+
+.cancelBtn {
+  padding: 7px 18px;
+  border: 1.5px solid rgba(120, 53, 15, 0.4);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #78350f;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.cancelBtn:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* ── EDIT PROFILE BUTTON ── */
+.editProfileBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border: 1.5px solid #0a66c2;
+  border-radius: 999px;
+  background: transparent;
+  color: #0a66c2;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease;
+  white-space: nowrap;
+}
+
+.editProfileBtn:hover {
+  background: #0a66c2;
+  color: #fff;
+}
+
+/* ── PANEL EDITING HIGHLIGHT ── */
+.panelEditing {
+  outline: 2px solid rgba(245, 158, 11, 0.5);
+  outline-offset: -2px;
+}
+
+/* ── EDIT INPUTS ── */
+.editInput {
+  display: block;
+  width: 100%;
+  padding: 7px 12px;
+  margin-bottom: 8px;
+  border: 1.5px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-text);
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+  box-sizing: border-box;
+}
+
+.editInput:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+}
+
+.editInputSub {
+  font-size: 0.92rem;
+  font-weight: 400;
+  color: var(--muted-text);
+}
+
+.editTextarea {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid #d0d7de;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--primary-text);
+  line-height: 1.65;
+  resize: vertical;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+  box-sizing: border-box;
+}
+
+.editTextarea:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.15);
+}
+
 .heroLinks {
   margin-top: 12px;
   display: flex;
